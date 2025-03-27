@@ -17,12 +17,9 @@ A API permitirá operações de CRUD (Create, Read, Update, Delete) e consulta p
 ## Tecnologias Utilizadas
 
 - **Backend**:
-  - Node.js
-  - Express
-  - PostgreSQL
-  - Swagger/OpenAPI para documentação
-  - Jest para testes automatizados
-  - Sequelize (ORM)
+  - Spring Boot
+  - JPA/JDBC
+  - Testes unitários com JUnit
   
 - **Frontend**:
   - Angular
@@ -55,13 +52,3 @@ A API permitirá operações de CRUD (Create, Read, Update, Delete) e consulta p
    - Busca de uma pessoa pelo CPF.
 3. Implementar um design limpo e intuitivo.
 4. Criar testes unitários para os componentes principais.
-
-## Como Rodar o Projeto Localmente
-
-### Backend (API)
-
-1. Clone o repositório:
-
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio
